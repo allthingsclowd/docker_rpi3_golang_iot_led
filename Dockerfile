@@ -7,4 +7,4 @@ go get github.com/stianeikeland/go-rpio && \
 git clone https://github.com/allthingsclowd/docker_rpi3_golang_iot_led.git && \
 go build docker_rpi3_golang_iot_led/blink.go
 
-CMD ["./docker_rpi3_golang_iot_led/blink"]
+CMD ["./blink"]
