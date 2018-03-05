@@ -1,6 +1,6 @@
 # Raspberry Pi 3 IoT Demo using Docker &amp; Golang to trigger an LED
 
-Dockerfile can be used to build IOT demo container that runs a golang application that will work with the GPIO pins configured to match the following setup :
+The Dockerfile in this repository can be used to build an IoT demo container that runs a golang application that will work with the GPIO pins configured to match the following setup :
 
 ![rpi3-led_bb](https://user-images.githubusercontent.com/9472095/36993912-600b37ba-20a7-11e8-853b-b725fee25233.png)
 
