@@ -9,6 +9,8 @@ Dockerfile can be used to build IOT demo container that runs a golang applicatio
 
 The docker image can be found here: https://hub.docker.com/r/allthingscloud/rpi3-golang-iot-led/
 
+To build the docker file on a rpi : docker image build --tag allthingscloud/rpi3-golang-iot-led -f Dockerfile .
+
 Launch as follows: docker container run -d --name my-golang-iot-demo --device /dev/mem --device /dev/gpiomem allthingscloud/rpi3-golang-iot-led
 
 Similiar python and node docker images 
