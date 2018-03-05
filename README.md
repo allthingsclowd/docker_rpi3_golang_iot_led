@@ -8,6 +8,8 @@ The Dockerfile in this repository can be used to build an IoT demo container tha
 
 The docker image can be found here: https://hub.docker.com/r/allthingscloud/rpi3-golang-iot-led/
 
+Demo application thanks to - https://blog.eikeland.se/2013/07/30/go-gpio-library-for-raspberry-pi/
+
 To build the docker file on a rpi after cloning the repository : 
 ```bash
 docker image build --tag allthingscloud/rpi3-golang-iot-led -f Dockerfile . 
